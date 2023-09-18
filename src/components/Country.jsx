@@ -25,12 +25,14 @@ fetchCountry()
         placeholder="search for a country"
         value={search}
         onChange={(e) => setSearch(e.target.value)}
-        className={`bg-${dark ? 'bg-gray-800' : 'white'}  shadow-xl py-2 outline-none rounded-md` }
+        className={`bg-${dark ? 'gray-800' : 'white'} ${dark ? 'text-white' : 'text-black'} py-2 outline-none rounded-md shadow-xl`}
+
       />
       <select
         value={search}
         onChange={(e) => setSearch(e.target.value)}
-       className={`bg-${dark ? 'bg-gray-800' : 'white'}  ${dark ? 'text-white' : 'text-black'} shadow-xl py-2 rounded-md outline-none` }
+        className={`bg-${dark ? 'gray-800' : 'white'}  ${dark ? 'text-white' :  'text-black'} py-2 outline-none rounded-md shadow-xl`}
+
     
       >
         <option value="all">filter by region</option>
