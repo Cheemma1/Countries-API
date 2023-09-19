@@ -3,7 +3,7 @@ import React from 'react'
 
 const DarkLightToggle = ({dark,toggleBtn}) => {
   return (
-    <div className="container mx-auto flex items-center justify-between font-Nunito">
+    <div className="container mx-auto flex items-center justify-between font-Nunito px-4 md:px-0">
 
 
     <h2 className={`${dark ? 'text-white' : 'text-black'} shadow-xl pt-5 font-bold`}>  Where in the world</h2>

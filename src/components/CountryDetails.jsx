@@ -22,7 +22,7 @@ const CountryDetails = () => {
   console.log(country?.name);
   return (
     <div className={`bg-${toggle ? "gray-800" : "white"}  font-Nunito lg:h-screen`}>
-      <div className="container m-auto ">
+      <div className="container m-auto px-4 md:px-0 ">
         <div className=" flex items-center justify-between md:flex-row p-6">
           <h2
             className={`${

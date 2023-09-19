@@ -18,7 +18,7 @@ fetchCountry()
 },[])
   return (
    
-    <div className="container m-auto font-Nunito">
+    <div className="container m-auto font-Nunito px-4 md:px-0">
     <div className="flex items-center justify-between py-6">
       <input
         type="text"
